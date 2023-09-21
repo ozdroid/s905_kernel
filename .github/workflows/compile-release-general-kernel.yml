@@ -70,6 +70,7 @@ on:
 
 env:
   TZ: America/New_York
+  GITHUB_TOKEN: ${{ secrets.TOKEN}}
 
 jobs:
   build:
